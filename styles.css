@@ -1,0 +1,61 @@
+* {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: cornsilk;
+  border-bottom: 5px solid gold;
+}
+
+.navbar-boxes {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.navbar-link {
+  display: flex;
+  font-size: 24px;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.logo {
+  font-size: 36px;
+  padding: 10px;
+  font-weight: 900;
+}
+
+/* .navbar-box {
+  display: flex;
+} */
+
+.navbar-link:hover {
+  background-color: gold;
+}
+
+.selected {
+  font-weight: bolder;
+  background-color: gold;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
