@@ -6,7 +6,7 @@
 
 h1 {
   font-size: 42px;
-  font-family: "Poiret One", sans-serif;
+  /* font-family: "Poiret One", sans-serif; */
 }
 
 p {
@@ -27,14 +27,16 @@ body {
 }
 
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #99b2c8;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  z-index: 50;
-  position: static;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../final-dance-blurred-group-photo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 33%;
+}
+
+.title {
+  color: white;
+  margin-left: auto;
 }
 
 .navbar-boxes {
